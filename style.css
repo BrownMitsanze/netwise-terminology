@@ -1,0 +1,47 @@
+/* Page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    /* Grey gradient background */
+    background: linear-gradient(to bottom, #2e2e2e, #7a7a7a);
+    color: rgb(243, 201, 201);
+}
+.navbar{
+        width:100%;
+        background-color: black;
+}
+/* Navigation bar */
+.navbar td {
+    width: 25%;
+    padding: 15px;
+}
+
+/* Navigation links */
+.navbar a {
+    color: rgb(243, 201, 201);
+    text-decoration: none;
+    margin: 0 25px;
+    padding: 25px 50px;
+    display: inline-block;
+
+    transition: 0.3s;
+}
+
+/* Hover effect (grey) */
+.navbar a:hover {
+    background-color: grey;
+    color: black;
+}
+
+/* Heading */
+h1 {
+    margin-top: 20px;
+}
+
+/* Image styling */
+img {
+    width: 50%;
+    margin-top: 20px;
+}
